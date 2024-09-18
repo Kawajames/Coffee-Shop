@@ -8,10 +8,10 @@ cookie_price = 2    # $2 for each cookie
 tax_rate = 0.06     # 0.06 is equal to 6%
 #This shows the cost of each item
 
-coffees_bought = int(input("How many coffees were bought?\n"))
-muffins_bought = int(input("How many muffins were bought?\n"))
-teas_bought = int(input("How many teas were bought?\n"))
-cookies_bought = int(input("How many cookies were bought?\n"))
+coffees_bought = int(input("How many coffees were bought?"))
+muffins_bought = int(input("How many muffins were bought?"))
+teas_bought = int(input("How many teas were bought?"))
+cookies_bought = int(input("How many cookies were bought?"))
 # Ask the user for the quantity of each item bought
 
 coffee_total = coffees_bought * coffee_price
